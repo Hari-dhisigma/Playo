@@ -1,0 +1,160 @@
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    display: none;
+}
+
+img, svg {
+    
+    vertical-align: middle;
+    height: 30%;
+}
+
+/* img, svg {
+    vertical-align: middle;
+    width: 200px;
+    height: 400px;
+}
+ */
+.clock{
+    margin-left: 15px;
+    width: 2%;
+    height: 2%;
+}
+
+.location{
+    margin-left: 15px;
+    width: 2%;
+    height: 2%;
+}
+
+.showLoc{
+    width: 5%;
+    height: 5%;   
+}
+.checked {
+    color: orange;
+  }
+  
+button, input, optgroup, select, textarea {
+    margin-left: 15px;
+    width: 28%;
+    align-items: center;
+}
+
+ .container1{
+     padding: 0px;
+     font-size: 100%;
+ }
+
+ .container{
+    margin-top: 10px;
+}
+
+ .AvailableSp{
+     background-color: rgb(233, 233, 233);
+     width: 100%;
+     height: 160px;
+     margin-top: 10px;
+     padding: 15px;
+ }
+
+ .Advert{
+    margin-top: 10px;
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+    height: 70px;
+ }
+ .scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+ }
+ .card-img-top{
+    width:50%; height:50%;
+    justify-content: center;
+}
+
+    .card { width: 40px;
+      display: inline-block;
+      height: 30%;
+      vertical-align: middle;
+    }
+    .scrolling-wrapper {
+        -webkit-overflow-scrolling: touch;
+      }
+      /* .scrolling-wrapper {
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      } */
+  
+      .about{
+        padding-left: 15px;
+        margin-top: 10px;
+        background-color: rgb(233, 233, 233);
+        width: 100%;
+        height: 200px;
+      }
+      /* .btnBook{
+          position: fixed;
+      } */
+ @media (min-width: 50px){
+    .container, .container-sm {
+        max-width: none;
+        font-size: 40%; 
+        /* font-weight: bold; */
+    }
+}
+ @media (min-width: 200px){
+    .container, .container-sm {
+        max-width: none;
+        font-size: 80%; 
+        /* font-weight: bold; */
+    }
+
+}
+    
+ @media (min-width: 576px){
+.container, .container-sm {
+    max-width: none;
+    font-size: 100%; 
+    
+}
+
+
+img, svg {
+    
+    vertical-align: middle;
+    height: 200px;
+}
+}
+@media (min-width: 768px){
+.container, .container-md, .container-sm {
+    max-width: none;
+    font-size: 100%;
+
+}
+img, svg {
+    
+    vertical-align: middle;
+    height: 300px;
+}
+
+}
+
+@media (min-width: 1024px){
+    img, svg {
+    
+        vertical-align: middle;
+        height: 400px;
+    }
+
+
+}
+    
