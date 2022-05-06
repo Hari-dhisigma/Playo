@@ -10,8 +10,9 @@ import { FaUserCircle } from "react-icons/fa";
 function Start() {
   return (
       <div class="bg">
-          <div class="btnstart"><button>Lets get started</button></div>
-          <p style={{color:'white'}}>Already a Playoholic? <Link to="/login" style={{color:'green'}}>Login</Link></p>
+        <div className="rowApp"><p>Your Sports Comunity App</p></div>
+          <div class="startrow"><button className="btnstart">Lets get started</button></div>
+          <div className="startLogin"><p style={{color:'white'}}>Already a Playoholic? <Link to="/login" style={{color:'green'}}>Login</Link></p></div>
           </div>
 
   );
