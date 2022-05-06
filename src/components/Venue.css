@@ -1,304 +1,280 @@
 .carousel-indicators [data-bs-target] {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-  }
-
-  .carousel-control-prev-icon, .carousel-control-next-icon {
-    display: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
 }
 
-img, svg {
-    
-    vertical-align: middle;
-    height: 30%;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none;
 }
 
-/* img, svg {
-    vertical-align: middle;
-    width: 200px;
-    height: 400px;
-}
- */
-.clock{
-    margin-left: 15px;
-    width: 2%;
-    height: 2%;
+img,
+svg {
+  vertical-align: middle;
+  height: 30%;
 }
 
-.location{
-    margin-left: 15px;
-    width: 2%;
-    height: 2%;
+.clock {
+  margin-left: 15px;
+  width: 2%;
+  height: 2%;
 }
 
-.showLoc{
-    width: 5%;
-    height: 5%;   
+.location {
+  margin-left: 15px;
+  width: 2%;
+  height: 2%;
+}
+
+.showLoc {
+  width: 5%;
+  height: 5%;
 }
 .checked {
-    color: orange;
+  color: orange;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin-left: 15px;
+  width: 28%;
+  align-items: center;
+}
+
+.container1 {
+  padding: 0px;
+  font-size: 100%;
+  font-family: Lato, sans-serif;
+}
+
+.container {
+  margin-top: 10px;
+}
+
+.AvailableSp {
+  background-color: rgb(233, 233, 233);
+  width: 100%;
+  height: 140px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.Advert {
+  margin-top: 10px;
+  background-color: rgb(233, 233, 233);
+  width: 100%;
+  height: 70px;
+}
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.card-img-top {
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+}
+
+.card {
+  width: 40px;
+  display: inline-block;
+  height: 30%;
+  vertical-align: middle;
+}
+.scrolling-wrapper {
+  -webkit-overflow-scrolling: touch;
+}
+
+.about {
+  padding-left: 15px;
+  margin-top: 10px;
+  background-color: rgb(233, 233, 233);
+  width: 100%;
+  height: 200px;
+  padding-left: 10px;
+}
+
+@media only screen and (max-device-width: 374px) {
+  .container1 b {
+    font-size: 14px;
   }
-  
-button, input, optgroup, select, textarea {
-    margin-left: 15px;
-    width: 28%;
-    align-items: center;
-}
-
- .container1{
-     padding: 0px;
-     font-size: 100%;
-     font-family: Lato,sans-serif;
- }
-
- .container{
-    margin-top: 10px;
-}
-
- .AvailableSp{
-     background-color: rgb(233, 233, 233);
-     width: 100%;
-     height: 140px;
-     margin-top: 10px;
-     padding-top: 5px;
-     padding-left: 10px;
- }
-
- .Advert{
-    margin-top: 10px;
-    background-color: rgb(233, 233, 233);
+  .firstrow img,
+  svg {
+    vertical-align: middle;
+    height: 200px;
+  }
+  .heading {
+    margin-left: 10px;
+  }
+  .titlerow {
     width: 100%;
-    height: 70px;
- }
- .scrolling-wrapper {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    
- }
- .card-img-top{
-    width:50%; height:50%;
-    justify-content: center;
+    position: sticky;
+
+    top: 15px;
+    margin-top: 20px;
+    background-color: white;
+  }
+  .titlerow b {
+    font-size: 18px;
+  }
+  .time {
+    margin-top: 5px;
+    color: rgb(97, 94, 94);
+    float: left;
+  }
+  .time i {
+    font-size: 20px;
+    padding: 5px;
+  }
+  .time span {
+    font-size: 14px;
+  }
+  .locationrow {
+    width: 100%;
+    margin-top: 5px;
+    color: rgb(85, 81, 81);
+    float: left;
+  }
+  .locationrow i {
+    font-size: 22px;
+    padding: 7px;
+  }
+  .locationrow span {
+    font-size: 14px;
+  }
+  .locrow {
+    width: 100%;
+    margin-top: 52px;
+    padding-left: 31px;
+    color: rgb(85, 81, 81);
+  }
+  .locrow span {
+    font-size: 14px;
+  }
+  .buttonMap {
+    border-radius: 5px;
+    margin-left: 31px;
+    width: 35%;
+    background-color: white;
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  hr {
+    width: 90%;
+    margin-left: 15px;
+  }
+  .rating {
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  .colr {
+    float: left;
+    padding-left: 5px;
+  }
+
+  .colbtn {
+    width: 50%;
+    float: left;
+    font-size: 14px;
+  }
+  .btnRating {
+    width: 90%;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  .AvailableSp p {
+    font-size: 11px;
+    padding-top: 5px;
+  }
+  .scrolling-wrapper .card {
+    width: 22%;
+    margin-left: 5px;
+    word-wrap: break-word;
+    text-align: center;
+  }
+  .scrolling-wrapper .card-title {
+    font-size: 12px;
+  }
+
+  .scrolling-wrapper .card-img {
+    width: 40%;
+    text-align: center;
+    padding-top: 5px;
+  }
+  .Advert {
+    padding-left: 10px;
+  }
+  .amenities {
+    width: 96%;
+    margin-left: 10px;
+    padding-top: 5px;
+    height: 83px;
+  }
+
+  .rowAmenities {
+    width: 100%;
+  }
+  .colAmenities {
+    float: left;
+    background-color: rgb(155, 155, 155);
+    margin-left: 5px;
+    width: 30%;
+    padding: 3px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .rowAmenities2 {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .colAmenities2 {
+    width: 46%;
+    float: left;
+    background-color: rgb(155, 155, 155);
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 3px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .rowActivities {
+    margin-top: 5px;
+    width: 100%;
+    height: 65px;
+    margin-left: 10px;
+  }
+  .btActivity {
+    width: 90%;
+    margin-left: 0px;
+    float: left;
+
+    border-radius: 3px;
+    background-color: white;
+  }
+  .about {
+    padding-top: 5px;
+    height: 150px;
+  }
+
+  .rowAbout {
+    margin-top: 3px;
+    font-size: 12px;
+  }
+  .bookNow {
+    width: 100%;
+  }
+  .btnBook {
+    width: 90%;
+    background-color: green;
+    position: fixed;
+    bottom: 18px;
+  }
 }
-
-    .card { width: 40px;
-      display: inline-block;
-      height: 30%;
-      vertical-align: middle;
-    }
-    .scrolling-wrapper {
-        -webkit-overflow-scrolling: touch;
-      }
-      /* .scrolling-wrapper {
-        &::-webkit-scrollbar {
-          display: none;
-        }
-      } */
-  
-      .about{
-        padding-left: 15px;
-        margin-top: 10px;
-        background-color: rgb(233, 233, 233);
-        width: 100%;
-        height: 200px;
-        padding-left: 10px;
-      }
-      /* .btnBook{
-          position: fixed;
-      } */
-
-
-      @media only screen and (max-device-width: 374px) {
-        .container1 b{
-            font-size: 14px;
-
-        }
-        .firstrow img, svg {
-    
-            vertical-align: middle;
-            height: 200px;
-        }
-          .heading{
-            margin-left: 10px;
-          }
-        .titlerow {
-            width: 100%;
-           position: sticky;
-           
-           top: 15px;
-            margin-top: 20px;
-            background-color: white;
-        }
-        .titlerow b{
-            font-size: 18px;
-        }
-        .time{
-            margin-top: 5px;
-            color: rgb(97, 94, 94);
-            float:left
-        }
-        .time i{
-            font-size: 20px;
-            padding: 5px;
-        }
-        .time span{
-            font-size: 14px;
-        }
-        .locationrow{
-            width: 100%;
-            margin-top: 5px;
-            color: rgb(85, 81, 81);
-            float:left
-        }
-        .locationrow i{
-            font-size: 22px;
-           padding: 7px;
-        }
-        .locationrow span{
-            font-size: 14px;
-        }
-        .locrow{
-            width: 100%;
-            margin-top: 52px;
-            padding-left: 31px;
-            color: rgb(85, 81, 81);
-        }
-        .locrow span{
-            font-size: 14px;
-        }
-        .buttonMap{
-            border-radius: 5px;
-            margin-left: 31px;
-            width: 35%;
-            background-color: white;
-            padding-top: 5px;
-            font-size: 14px;
-            font-weight: bold;
-        }
-        hr{
-            width: 90%;
-            margin-left: 15px;
-        }
-        .rating{
-            margin-left: 10px;
-            font-size: 12px;
-        }
-        .colr{
-            float: left;
-            padding-left: 5px;
-        }
-     
-        .colbtn{
-            width: 50%;
-            float: left;
-            font-size: 14px;
-           
-        }
-        .btnRating{
-            width: 90%;
-            background-color: white;
-            border-radius: 5px;
-
-        }
-
-        .AvailableSp p{
-            font-size: 11px;
-            padding-top: 5px;
-        }
-        .scrolling-wrapper .card{
-            width: 22%;
-            margin-left: 5px;
-            word-wrap: break-word;
-            text-align: center;
-        }
-        .scrolling-wrapper .card-title{
-            font-size: 12px;
-            
-            
-        }
-
-        .scrolling-wrapper .card-img{
-            
-            width: 40%;
-            text-align: center;
-            padding-top: 5px;
-        }
-        .Advert{
-            padding-left: 10px;
-        }
-        .amenities{
-            width: 96%;
-            margin-left: 10px;
-            padding-top: 5px;
-            height: 83px;
-        }
-
-        .rowAmenities{
-            width: 100%;
-            
-            
-        }
-        .colAmenities{
-            float: left;
-            background-color: rgb(155, 155, 155);
-            margin-left: 5px;
-            width: 30%;
-            padding: 3px;
-            font-size: 12px;
-            text-align: center;
-        }
-        .rowAmenities2{
-            width: 100%;
-            margin-left: 10px;
-        }
-        .colAmenities2{
-            width: 46%;
-            float: left;
-            background-color: rgb(155, 155, 155);   
-            margin-top: 5px;
-            margin-left: 5px;
-            padding: 3px;
-            font-size: 12px;
-            text-align: center;
-        }
-        .rowActivities{
-            margin-top: 5px;
-            width: 100%;
-            height: 65px;
-            margin-left: 10px;
-            
-            
-        }
-        .btActivity{
-            width: 90%;
-            margin-left: 0px;
-            float: left;
-            
-            border-radius: 3px;
-            background-color: white;
-          
-        }
-        .about{
-            padding-top: 5px;
-            height: 150px;
-            
-        }
-      
-       .rowAbout{
-            margin-top: 3px;
-            font-size: 12px;
-        }
-        .bookNow{
-            width: 100%;
-        }
-        .btnBook{
-            width: 90%;
-            background-color: green;
-            position: fixed;
-            bottom: 18px;
-        }
-
-    }
-
- 
